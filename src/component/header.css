@@ -1,0 +1,44 @@
+header {
+    margin-top: 20px;
+    border: solid 3px black;
+    padding: 0.5rem 2rem;
+    border-radius: 10px;
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.theme {
+    display: flex;
+    gap: 10px;
+}
+.theme span {
+    height: 20px;
+    width: 20px;
+    border: solid 2px gray;
+    border-radius: 50%;
+}
+
+.dark {
+    background-color: black;
+}
+
+.light {
+    background-color: cyan;
+    transition: all 750ms;
+}
+.pepper {
+    background-color: rgb(238, 58, 58);
+    transition: all 750ms;
+}
+.gOne {
+    background: linear-gradient(to bottom, rgb(46, 17, 239), red);
+    transition: all 750ms;
+    
+}
+.gTwo {
+    background: linear-gradient(250deg, rgb(46, 17, 239), red);
+    transition: all 750ms;
+}
